@@ -1,0 +1,3021 @@
+Script started on Wed 11 Dec 2013 08:02:32 PM PST
+]0;andysingh@ubuntu: ~/Desktop/202/extraCreditandysingh@ubuntu:~/Desktop/202/extraCredit$ ./a.out[3Pmakeclear./a.out[3Pmake
+g++ StackP.o queueP.o listP.o stringLibrary.o classes.o main.o
+]0;andysingh@ubuntu: ~/Desktop/202/extraCreditandysingh@ubuntu:~/Desktop/202/extraCredit$ make./a.out[3Pmake./a.out
+..::WELCOME TO UNO::..
+
+1. INPUT THE DECK 
+2. INPUT THE PLAYERS 
+3. SHUFFLE THE DECK 
+4. DEAL CARDS
+5. START GAME
+6. QUIT PROGRAM 
+
+PLEASE SELECT A NUMBER CHOICE: 1
+
+PLEASE ENTER THE NAME OF THE INPUT FILE: deck.txt
+
+...READING IN DECK...
+
+..::WELCOME TO UNO::..
+
+1. INPUT THE DECK 
+2. INPUT THE PLAYERS 
+3. SHUFFLE THE DECK 
+4. DEAL CARDS
+5. START GAME
+6. QUIT PROGRAM 
+
+PLEASE SELECT A NUMBER CHOICE: 2p 
+
+PLEASE ENTER THE NAME OF THE INPUT FILE: players.txt
+
+PLEASE ENTER THE NUMBER OF PLAYERS: 2
+
+...READING IN PLAYERS...
+
+..::WELCOME TO UNO::..
+
+1. INPUT THE DECK 
+2. INPUT THE PLAYERS 
+3. SHUFFLE THE DECK 
+4. DEAL CARDS
+5. START GAME
+6. QUIT PROGRAM 
+
+PLEASE SELECT A NUMBER CHOICE: 3
+
+...SHUFFLING DECK...
+
+..::WELCOME TO UNO::..
+
+1. INPUT THE DECK 
+2. INPUT THE PLAYERS 
+3. SHUFFLE THE DECK 
+4. DEAL CARDS
+5. START GAME
+6. QUIT PROGRAM 
+
+PLEASE SELECT A NUMBER CHOICE: 4
+
+...DEALING THE CARDS...
+
+..::WELCOME TO UNO::..
+
+1. INPUT THE DECK 
+2. INPUT THE PLAYERS 
+3. SHUFFLE THE DECK 
+4. DEAL CARDS
+5. START GAME
+6. QUIT PROGRAM 
+
+PLEASE SELECT A NUMBER CHOICE: 5
+
+y
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: y
+Rank: 1
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: c
+Rank: -1
+Action: wild
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: b
+Rank: 1
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: b
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#6
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#7
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 2
+rank match
+b
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 1
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: -1
+Action: skip
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 6
+color match
+b
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: -1
+Action: skip
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: b
+Rank: -1
+Action: skip
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: b
+Rank: -1
+Action: skip
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+b
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 8
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: c
+Rank: -1
+Action: wild
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: b
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#6
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 5
+ERROR: CAN'T PLAY CARD! 
+================================
+::HAND OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SELECT A CARD
+3. DRAW A CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3 2
+
+     DISCARD
+===================
+Color: b
+Rank: 8
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: c
+Rank: -1
+Action: wild
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: b
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#6
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 3
+color match
+b
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: b
+Rank: 5
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+b
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 9
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: c
+Rank: -1
+Action: wild
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 1
+================================
+::COLOR OPTIONS::
+
+1. BLUE
+2. GREEN
+3. RED
+4. YELLOW
+
+================================
+
+PLEASE CHOOSE COLOR: 2
+COLOR NOW TO BE MATCHED: GREEN
+g
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+COLOR NOW TO BE MATCHED: GREEN
+
+     DISCARD
+===================
+Color: c
+Rank: -1
+Action: wild
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: g
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 7
+color match
+g
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: -1
+Action: reverse
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 1
+color match
+g
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: g
+Rank: 2
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 1
+color match
+g
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: y
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerTwo
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 2
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+g
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: 9
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: g
+Rank: 9
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 9
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: 7
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+g
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: 7
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: g
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#16
+===================
+Color: y
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#17
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#18
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#19
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 9
+color match
+g
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: 6
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: g
+Rank: 6
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: g
+Rank: 6
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: 7
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+g
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: g
+Rank: 7
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: y
+Rank: 7
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: y
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#16
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#17
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#18
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 4
+rank match
+y
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 0
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+ERROR: CARD NOT PLAYABLE!
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 2
+
+CURRENT PLAYERS TURN: playerOne
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+================================
+::DRAW OPTIONS::
+
+     DISCARD
+===================
+Color: y
+Rank: 7
+Action: action
+Location: discard
+===================
+
+    CARD DRAWN
+===================
+Color: y
+Rank: 1
+Action: action
+Location: playerOne
+===================
+
+
+1. PLAY CARD
+2. DRAW ANOTHER CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 1
+
+color match
+y
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: y
+Rank: 1
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: y
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#16
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#17
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 14
+color match
+y
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: y
+Rank: 6
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#6
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 4
+rank match
+b
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 6
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#16
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 13
+color match
+b
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 3
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#5
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 2
+rank match
+r
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: 3
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: r
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 14
+color match
+r
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: 2
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerOne
+===================
+     CARD#4
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 3
+color match
+r
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: 5
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+     CARD#3
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 1
+color match
+r
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: 5
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: g
+Rank: 5
+Action: action
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: r
+Rank: 1
+Action: action
+Location: playerTwo
+===================
+     CARD#16
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 15
+color match
+r
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: 1
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+     CARD#2
+===================
+Color: r
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 2
+color match
+r
+CURRENT PLAYERS TURN: playerTwo
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: r
+Rank: 8
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: r
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#2
+===================
+Color: r
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#3
+===================
+Color: r
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#4
+===================
+Color: r
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#5
+===================
+Color: y
+Rank: 4
+Action: action
+Location: playerTwo
+===================
+     CARD#6
+===================
+Color: b
+Rank: 2
+Action: action
+Location: playerTwo
+===================
+     CARD#7
+===================
+Color: y
+Rank: 9
+Action: action
+Location: playerTwo
+===================
+     CARD#8
+===================
+Color: b
+Rank: 0
+Action: action
+Location: playerTwo
+===================
+     CARD#9
+===================
+Color: b
+Rank: 6
+Action: action
+Location: playerTwo
+===================
+     CARD#10
+===================
+Color: b
+Rank: 3
+Action: action
+Location: playerTwo
+===================
+     CARD#11
+===================
+Color: b
+Rank: 8
+Action: action
+Location: playerTwo
+===================
+     CARD#12
+===================
+Color: r
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+     CARD#13
+===================
+Color: b
+Rank: -1
+Action: reverse
+Location: playerTwo
+===================
+     CARD#14
+===================
+Color: g
+Rank: 5
+Action: action
+Location: playerTwo
+===================
+     CARD#15
+===================
+Color: g
+Rank: -1
+Action: draw2
+Location: playerTwo
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 11
+rank match
+b
+CURRENT PLAYERS TURN: playerOne
+
+================================
+::TURN OPTIONS::
+
+1. DISPLAY HAND & DISCARD PILE
+2. SORT HAND
+3. SELECT CARD
+4. DRAW CARD
+
+================================
+
+PLEASE MAKE A CHOICE: 3
+     DISCARD
+===================
+Color: b
+Rank: 8
+Action: action
+Location: discard
+===================
+
+     CARD#1
+===================
+Color: g
+Rank: 8
+Action: action
+Location: playerOne
+===================
+PLEASE SELECT A CARD OR PUSH ZERO TO DRAW CARD: 1
+rank match
+CONGRATULATIONS playerOne! YOU HAVE WON THE GAME!
+]0;andysingh@ubuntu: ~/Desktop/202/extraCreditandysingh@ubuntu:~/Desktop/202/extraCredit$ exit
+exit
+
+Script done on Wed 11 Dec 2013 08:09:32 PM PST
